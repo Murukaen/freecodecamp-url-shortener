@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Url Shortener</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+        body {
+            padding-left: 5px;
+        }
+        #examples {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2> Service Usage </h2>
+    <p> Pass url you want to shorten in the form <code>/new/&lt;you_url_here&gt;</code> Eg. 
+        <code> /new/https://www.google.com</code>
+    </p>
+    <p> The response will be of the form: </p>
+    <code> {'original_url': &lt;passed_url&gt;, 'short_url': &lt;generated shorter url&gt;} </code>
+    <p> Eg. <code>{'original_url': 'https://www.google.com', 'short_url': 'TODO/7'}</code></p>
+    <p> You can then anytime access your url using the shorter version </p>
+</body>
